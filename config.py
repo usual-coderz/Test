@@ -15,4 +15,4 @@ MONGO_URI = os.getenv("MONGO_URI", "")
 LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "0"))
 
 
-DEBUG = bool(os.getenv("DEBUG", "True") == "True")
+#DEBUG = bool(os.getenv("DEBUG", "True") == "True")
