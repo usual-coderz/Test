@@ -59,7 +59,7 @@ def start_button():
             [
                 InlineKeyboardButton(
                     "комьюнити",
-                    callback_data="community",
+                    url="https://t.me/Nexacoders",
                     style=ButtonStyle.PRIMARY,  # ✅ ONLY HERE
                     icon_custom_emoji_id=5447410659077661506
                 ),
