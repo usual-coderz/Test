@@ -1,5 +1,5 @@
 from pyrogram import Client
-from sky.config import API_ID, API_HASH, BOT_TOKEN
+from config import API_ID, API_HASH, BOT_TOKEN
 
 bot = Client(
     "sky-bot",
