@@ -1,8 +1,9 @@
-from pyrogram import Client, filters
+from pyrogram import filters
 from pyrogram.types import Message
+from sky import sky
 
-@Client.on_message(filters.command("start"))
-async def start_handler(client: Client, message: Message):
+@sky.on_message(filters.command("start") & filters.private)
+async def start_handler(client, message: Message):
     await message.reply_text(
-        f"Hello {message.from_user.first_name} 👋\n\nSky Bot is running!"
+        f"Hello {message.from_user.first_name} 👋\n\nSky Bot is running! 🚀"
     )
