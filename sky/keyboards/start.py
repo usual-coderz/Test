@@ -1,4 +1,5 @@
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ButtonStyle
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.enums import ButtonStyle
 
 start_inline = InlineKeyboardMarkup(
     inline_keyboard=[
