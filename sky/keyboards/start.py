@@ -8,52 +8,52 @@ def start_button():
                 InlineKeyboardButton(
                     "охота",
                     callback_data="hunt",
-                    icon_custom_emoji_id=6028477497518068483
+                    icon_custom_emoji_id=5434121252874756456
                 ),
                 InlineKeyboardButton(
                     "арена",
                     callback_data="arena",
-                    icon_custom_emoji_id=6028477497518068484
+                    icon_custom_emoji_id=5420315771991497307
                 ),
                 InlineKeyboardButton(
                     "инвентарь",
                     callback_data="inventory",
-                    icon_custom_emoji_id=6028477497518068485
+                    icon_custom_emoji_id=5449428597922079323
                 ),
             ],
             [
                 InlineKeyboardButton(
                     "рейтинг",
                     callback_data="rating",
-                    icon_custom_emoji_id=6028477497518068486
+                    icon_custom_emoji_id=5332679872009484448
                 ),
                 InlineKeyboardButton(
                     "топ",
                     callback_data="top",
-                    icon_custom_emoji_id=6028477497518068487
+                    icon_custom_emoji_id=5028746137645876535
                 ),
                 InlineKeyboardButton(
                     "рынок",
                     callback_data="market",
-                    icon_custom_emoji_id=6028477497518068488
+                    icon_custom_emoji_id=5246762912428603768
                 ),
             ],
             [
                 InlineKeyboardButton(
                     "коллекция",
                     callback_data="collection",
-                    icon_custom_emoji_id=6028477497518068489
+                    icon_custom_emoji_id=4956721670690702265
                 ),
                 InlineKeyboardButton(
                     "донат",
                     callback_data="donate",
                     style=ButtonStyle.PRIMARY,  # ✅ ONLY HERE
-                    icon_custom_emoji_id=6028477497518068490
+                    icon_custom_emoji_id=6005661956931850799
                 ),
                 InlineKeyboardButton(
                     "настройки",
                     callback_data="settings",
-                    icon_custom_emoji_id=6028477497518068491
+                    icon_custom_emoji_id=5341715473882955310
                 ),
             ],
             [
@@ -61,7 +61,7 @@ def start_button():
                     "комьюнити",
                     callback_data="community",
                     style=ButtonStyle.PRIMARY,  # ✅ ONLY HERE
-                    icon_custom_emoji_id=6028477497518068492
+                    icon_custom_emoji_id=5447410659077661506
                 ),
             ]
         ]
