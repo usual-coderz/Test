@@ -5,7 +5,8 @@ from sky.keyboards.start import start_inline
 
 @sky.on_message(filters.command("start") & filters.private)
 async def start_handler(client, message: Message):
-    await message.reply_text(
-        "🌐",
+    await client.send_message(
+        chat_id=message.chat.id,
+        text="🌐",
         reply_markup=start_inline
     )
