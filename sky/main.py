@@ -1,13 +1,11 @@
 import asyncio
-from sky.app import start_bot, stop_bot
+from pyrogram import idle
+from sky.app import start_bot
 
 async def main():
     await start_bot()
-    await idle()
+    print("🤖 Bot is now listening...")
+    await idle()   # ⚡ THIS IS IMPORTANT
 
 if __name__ == "__main__":
-    from pyrogram import idle
-    try:
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        print("Bot stopped")
+    asyncio.run(main())
