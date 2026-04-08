@@ -4,7 +4,7 @@ from sky import sky
 
 
 def load_plugins():
-    for root, _, files in os.walk("Nexa"):
+    for root, _, files in os.walk("sky"):
         for file in files:
             if file.endswith(".py") and not file.startswith("__"):
                 module = os.path.join(root, file).replace("/", ".")[:-3]
